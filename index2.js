@@ -8,4 +8,4 @@ var getSiblings = n => ({previous: n -1, next: n + 1});
 console.log(sayHello);
 console.log(sayHello('fool'));
 printHello('matherfucker');
-console.log(getSiblings());
+console.log(getSiblings(10));
